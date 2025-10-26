@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spisoh - South Indian Restaurant in Stavanger</title>
+    <!-- Richly detailed JSON-LD file for better SEO -->
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Restaurant",
+          "name": "Spisoh",
+          "description": "Spisoh is a renowned South Indian restaurant in Stavanger, Norway, specializing in authentic South Indian cuisine. Our menu offers a variety of traditional dishes rich in spices and flavors, available in both physical and digital formats for a seamless dining experience. With a cozy atmosphere, exceptional service, and a 4.8-star rating from over 900 reviews, we are a top choice for food lovers. We accept reservations, offer catering services, and have a wheelchair-accessible entrance and seating. Our award-winning chef and friendly staff ensure an unforgettable dining experience, perfect for families, groups, and individuals alike.",
+          "image": "https://www.spisoh.no/img/logo_transparent.avif",
+          "url": "https://www.spisoh.no",
+          "telephone": "+4700000000",
+          "email": "",
+          "priceRange": "45 KR - 599 KR",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Løkkeveien 28",
+            "postalCode": "4008",
+            "addressLocality": "Stavanger",
+            "addressCountry": "NO"
+          },
+          "servesCuisine": "South Indian",
+          "acceptsReservations": true,
+          "menu": "https://www.spisoh.no/SpisohMenu.pdf",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "16:00",
+              "closes": "21:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Sunday",
+              "opens": "15:00",
+              "closes": "20:30"
+            }
+          ],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": 900,
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "award": [
+            "Tripadvisor Travellers' Choice Award",
+            "Restaurant Guru Recommended Restaurant Award 2024"
+          ]
+        }
+    </script>
+    <!-- Meta tags for better search-engine optimisation or SEO -->
+    <meta name="title" content="Spisoh - South Indian Restaurant and Takeaway Stavanger">
+    <meta name="description" content="Spisoh - South Indian Restaurant and Takeaway Stavanger">
+    <!-- Custom Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- CSS and Favicon Link -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/svg+xml">
+    <!-- Preload Images -->
+    <link rel="preload" as="image" href="./img/hero-slider_1.avif">
+    <link rel="preload" as="image" href="./img/hero-slider_2.avif">
+    <link rel="preload" as="image" href="./img/hero-slider_3.avif">
+    <link rel="preload" as="image" href="./img/hero-slider_4.avif">
+    <link rel="preload" as="image" href="./img/hero-slider_5.avif">
+  </head>
+  <body id="top">
+    <!-- Preloader or Intro -->
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Spisoh</p>
+    </div>
+    <!-- Top Bar -->
+    <div class="topbar">
+      <div class="container">
+        <a href="https://maps.app.goo.gl/Ci4BENFYW975p64a7" class="topbar-item link" target="_blank">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">Løkkeveien 28, 4008 Stavanger</span>
+        </a>
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">16:00 - 21:00 (Mon - Thu)</span>
+        </div>
+        <a href="tel:+4700000000" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">+47 00000000</span>
+        </a>
+        <a href="mailto:sample@mail.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+          <span class="span">sample@mail.com</span>
+        </a>
+      </div>
+    </div>
+    <!-- Header or Navbar -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./img/logo_transparent.avif"
+            width="270"
+            height="50"
+            alt="Spisoh logo"
+          >
+        </a>
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Home</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#dishes" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Delicacies</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="./index_catering.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Catering</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#ourstory" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">About</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#parking" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Timings</span>
+              </a>
+            </li>
+            <li class="navbar-item">
+              <a href="#parking" class="navbar-link hover-underline">
+                <div class="separator"></div>
+                <span class="span">Parking</span>
+              </a>
+            </li>
+          </ul>
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Our Location</p>
+            <address class="body-4">
+              Løkkeveien 28, 4008 Stavanger
+              <br>
+              Norsk
+            </address>
+            <a href="mailto:sample@mail.com" class="body-4 sidebar-link">sample@mail.com</a>
+          </div>
+        </nav>
+        <a href="" target="_blank" class="btn btn-secondary">
+          <span class="text text-1">ORDER TAKEAWAY</span>
+          <span class="text text-2" aria-hidden="true">ORDER TAKEAWAY</span>
+        </a>
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <main>
+      <article>
+        <!-- Hero or Home -->
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="img/hero-slider_1.avif"
+                  width="1880"
+                  height="950"
+                  alt
+                  class="img-cover"
+                >
+              </div>
+              <h1 class="display-1 hero-title slider-reveal">
+                Experience true
+                <br>
+                South Indian flavours!
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Explore the magic of India together with loved ones
+              </p>
+              <div class="primary-btn-flex">
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">BOOK TABLE</span>
+                  <span class="text text-2" aria-hidden="true">BOOK TABLE</span>
+                </a>
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">ORDER TAKEAWAY</span>
+                  <span class="text text-2" aria-hidden="true">ORDER TAKEAWAY</span>
+                </a>
+                <a href="./SpisohMenu.pdf" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">MENU</span>
+                  <span class="text text-2" aria-hidden="true">MENU</span>
+                </a>
+                <a href="./index_catering.html" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">CATERING</span>
+                  <span class="text text-2" aria-hidden="true">CATERING</span>
+                </a>
+              </div>
+            </li>
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="img/hero-slider_2.avif"
+                  width="1880"
+                  height="950"
+                  alt
+                  class="img-cover"
+                >
+              </div>
+              <h1 class="display-1 hero-title slider-reveal">
+                Team Spisoh
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Serving you with love and compassion!
+              </p>
+              <div class="primary-btn-flex margin-gap">
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">BOOK TABLE</span>
+                  <span class="text text-2" aria-hidden="true">BOOK TABLE</span>
+                </a>
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">ORDER TAKEAWAY</span>
+                  <span class="text text-2" aria-hidden="true">ORDER TAKEAWAY</span>
+                </a>
+                <a href="./SpisohMenu.pdf" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">MENU</span>
+                  <span class="text text-2" aria-hidden="true">MENU</span>
+                </a>
+                <a href="./index_catering.html" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">CATERING</span>
+                  <span class="text text-2" aria-hidden="true">CATERING</span>
+                </a>
+              </div>
+            </li>
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./img/hero-slider_3.avif"
+                  width="1880"
+                  height="950"
+                  alt
+                  class="img-cover"
+                >
+              </div>
+              <h1 class="display-1 hero-title slider-reveal">
+                Taste of South India
+                <br>
+                Now in Stavanger!
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                Endulge yourself in spicy, tangy South Indian delicacies
+              </p>
+              <div class="primary-btn-flex">
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">BOOK TABLE</span>
+                  <span class="text text-2" aria-hidden="true">BOOK TABLE</span>
+                </a>
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">ORDER TAKEAWAY</span>
+                  <span class="text text-2" aria-hidden="true">ORDER TAKEAWAY</span>
+                </a>
+                <a href="./SpisohMenu.pdf" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">MENU</span>
+                  <span class="text text-2" aria-hidden="true">MENU</span>
+                </a>
+                <a href="./index_catering.html" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">CATERING</span>
+                  <span class="text text-2" aria-hidden="true">CATERING</span>
+                </a>
+              </div>
+            </li>
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./img/hero-slider_4.avif"
+                  width="1880"
+                  height="950"
+                  alt
+                  class="img-cover"
+                >
+              </div>
+              <h1 class="display-1 hero-title slider-reveal">
+                Authentic flavours
+                <br>
+                Now in Stavanger!
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                From infamous Kerala Parotta to Dum Biriyani!
+              </p>
+              <div class="primary-btn-flex">
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">BOOK TABLE</span>
+                  <span class="text text-2" aria-hidden="true">BOOK TABLE</span>
+                </a>
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">ORDER TAKEAWAY</span>
+                  <span class="text text-2" aria-hidden="true">ORDER TAKEAWAY</span>
+                </a>
+                <a href="./SpisohMenu.pdf" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">MENU</span>
+                  <span class="text text-2" aria-hidden="true">MENU</span>
+                </a>
+                <a href="./index_catering.html" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">CATERING</span>
+                  <span class="text text-2" aria-hidden="true">CATERING</span>
+                </a>
+              </div>
+            </li>
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./img/hero-slider_5.avif"
+                  width="1880"
+                  height="950"
+                  alt
+                  class="img-cover"
+                >
+              </div>
+              <h1 class="display-1 hero-title slider-reveal">
+                Authentic flavours
+                <br>
+                Now in Stavanger!
+              </h1>
+              <p class="body-2 hero-text slider-reveal">
+                From infamous Kerala Parotta to Dum Biriyani!
+              </p>
+              <div class="primary-btn-flex">
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">BOOK TABLE</span>
+                  <span class="text text-2" aria-hidden="true">BOOK TABLE</span>
+                </a>
+                <a href="" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">ORDER TAKEAWAY</span>
+                  <span class="text text-2" aria-hidden="true">ORDER TAKEAWAY</span>
+                </a>
+                <a href="./SpisohMenu.pdf" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">MENU</span>
+                  <span class="text text-2" aria-hidden="true">MENU</span>
+                </a>
+                <a href="./index_catering.html" target="_blank" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">CATERING</span>
+                  <span class="text text-2" aria-hidden="true">CATERING</span>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+          <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+        </section>
+        <hr style="height:1px; border-width:0; background-color:gray">
+        <!-- Service or Dishes or Specialities -->
+        <section class="section service bg-black-10 text-center" id="dishes" aria-label="service">
+          <div class="container">
+            <h2 class="headline-1 section-title">Our Specialities</h2>
+            <div class="section-flex">
+              <p class="section-text-1">
+                The brand Spis-oh comes from Spiser (Eating in Norsk) and Khaoh (Eating in Hindi).
+                Spis-oh menu is designed around 3 staple South Indian Foods and
+                revolving main curry choices.
+              </p>
+              <p class="section-text-2">
+                <ul>
+                  <li class="margin-bottom-2px">
+                    Dosa is a crispy, savory crepe
+                    made from fermented rice and lentil batter and is usually
+                    served with chutney and sambar. It's a dish in South India
+                    and is also enjoyed as a snack or light meal.
+                  </li>
+                  <li class="margin-bottom-2px">
+                    Biriyani is a flavorful rice
+                    dish made with spices, vegetables or meat, and rice. It's a
+                    popular dish across India and is known for its unique aroma
+                    and flavor.
+                  </li>
+                  <li>
+                    Kerala Parotta is a layered flatbread made from flour,
+                    oil, and water. It's typically served with curries or as a
+                    side dish with biriyani. The process of making Kerala
+                    Parotta involves skillful kneading and stretching of the
+                    dough, resulting in a soft and fluffy texture.
+                  </li>
+                </ul>
+              </p>
+              <p class="section-text-3">
+                These dishes are not only delicious but also represent the rich
+                culture and heritage of South India.
+              </p>
+            </div>
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="" target="_blank" class="has-before hover:shine">
+                    <figure class="card-banner img-holder">
+                      <img
+                        src="img/masala-dosa-scaled.avif"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      >
+                    </figure>
+                  </a>
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="" target="_blank">Dosas</a>
+                    </h3>
+                    <a href="" target="_blank" class="btn-text hover-underline label-2">Order</a>
+                  </div>
+                </div>
+              </li>
+              <li class="shift-up">
+                <div class="service-card img-holder-1">
+                  <a href="" target="_blank" class="has-before hover:shine">
+                    <figure class="card-banner img-holder">
+                      <img
+                        src="img/chicken-biriyani-scaled.avif"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Appetizers"
+                        class="img-cover"
+                      >
+                    </figure>
+                  </a>
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="" target="_blank">Biriyani</a>
+                    </h3>
+                    <a href="" target="_blank" class="btn-text hover-underline label-2">Order</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                  <a href="" target="_blank" class="has-before hover:shine">
+                    <figure class="card-banner img-holder">
+                      <img
+                        src="img/kerala-parotta-scaled.avif"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Drinks"
+                        class="img-cover"
+                      >
+                    </figure>
+                  </a>
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="" target="_blank">Kerala Parotta</a>
+                    </h3>
+                    <a href="" target="_blank" class="btn-text hover-underline label-2">Order</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <hr style="height:1px; border-width:0; background-color:gray">
+        <!-- Our Story or About -->
+        <section class="section-about text-center" id="ourstory" aria-labelledby="about-label">
+          <div class="container-about">
+            <div class="about-content">
+              <h2 class="headline-1 section-title-about">Our Story</h2>
+              <p class="margin-bottom-text">
+                Rohini - Spisoh co-founder is an immigrant woman from India who
+                has been living in Stavanger for many years and has been
+                unemployed for a long time. A trip to India during the 2nd wave
+                of COVID gave her an opportunity to observe and experience ghost
+                kitchens which are prominent in Kerala and food delivery apps
+                closely from a customer point of view. She knew Stavanger was
+                missing South Indian cuisine and she wanted to bring it here in
+                the form of a ghost kitchen.
+                <br>
+                <br>
+                Her supportive foodie friends - Raghu - an engineering
+                specialist and Nitish - a strategist in an oil and gas company
+                joined hands to make her vision a reality. Their IT
+                understanding, solid network and operational expertise made her
+                dream a reality in under 3 months' time.
+                <br>
+                <br>
+                Authentic South Indian cuisine is characterized by curries of
+                soup like consistency and ample use of coconut in curries.
+                Porotta is special flaky bread introduced by Spisoh into
+                Stavanger - which is the bread of choice for at least 120
+                million people in South India and Srilanka. Spisoh has designed
+                its menu by giving the South Indian traditional cuisine a
+                European twist. We have deliberately kept more vegetarian
+                options in our menu not only to satisfy the growing vegetarian
+                population but also as our commitment to the
+                environment.
+                <br>
+                <br>
+                <b>
+                  <i>
+                    Our long-term vision is to train and employ differently
+                abled people into our operations. We want to make our
+                workplace and inclusive arena where we will deliver an
+                excellent food experience to our customers as a habitual
+                action.
+                  </i>
+                </b>
+              </p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="about-image"
+              src="img/team-spisoh.avif"
+              alt="image of team spisoh"
+              loading="lazy"
+            >
+          </div>
+        </section>
+
+        <!-- Widgets -->
+        <section class="widgets-sec">
+          <div class="widgets">
+            <img src="./img/tripadvisor_traveller's_choice.avif" alt="Spisoh - Tripadvisor Traveller's Choice Awards 2024" width="150px" height="150px">
+
+            <div id="TA_certificateOfExcellence800" class="TA_certificateOfExcellence"><ul id="UiG5ZJG8W3" class="TA_links dBfE9nmUFmf"><li id="jNEkkmAWC" class="5iVqKQiENJUZ"><a target="_blank" href="https://www.tripadvisor.com/Restaurant_Review-g190511-d23699630-Reviews-Spisoh_South_Indian_Restaurant-Stavanger_Stavanger_Municipality_Rogaland_Western.html"><img src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2025_L.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=800&amp;locationId=23699630&amp;lang=en_US&amp;year=2025&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
+
+            <div id="TA_cdsratingsonlynarrow296" class="TA_cdsratingsonlynarrow"><ul id="4HRMms" class="TA_links ZiKLsZq"><li id="yjDU7zAvWRj" class="o9RGBWH"><a target="_blank" href="https://www.tripadvisor.com/Restaurant_Review-g190511-d23699630-Reviews-Spisoh_South_Indian_Restaurant-Stavanger_Stavanger_Municipality_Rogaland_Western.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/branding/v2/Tripadvisor_lockup_horizontal_secondary_registered-18034-2.svg" alt="TripAdvisor"/></a></li></ul></div><script async src="https://www.jscache.com/wejs?wtype=cdsratingsonlynarrow&amp;uniq=296&amp;locationId=23699630&amp;lang=en_US&amp;border=true&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script>
+
+            <link href="https://awards.infcdn.net/2024/circle_v2.css" rel="stylesheet"/><div id="circle-r-ribbon" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.r-ribbon_title').href);return 0;}" class=""> <div class="r-ribbon_ahead "> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px" height="160px" viewBox="0 0 160 160"> <defs> <path id="heading-arc" d="M 30 80 a 50 50 0 1 1 100 0"></path> </defs> <text class="r-ribbon_ahead-heading " fill="#000" text-anchor="middle"> <textPath startOffset="50%" xlink:href="#heading-arc">Recommended</textPath> </text> </svg> </div> <p class="r-ribbon_year">2024</p> <a href="https://restaurantguru.com/Spisoh-South-Indian-Takeaway-Stavanger" class="r-ribbon_title f8" target="_blank">Spisoh - South Indian Restaurant</a> <div class="r-ribbon_ahead r-ribbon_ahead-bottom"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120px" height="120px" viewBox="0 0 120 120"> <defs> <path id="subheading-arc" d="M 12 60 a 48 48 0 0 0 96 0"></path> </defs> <text class="r-ribbon_ahead-subh" fill="#000" text-anchor="middle"> <textPath startOffset="50%" xlink:href="#subheading-arc"><a href="https://restaurantguru.com" target="_blank">Restaurant Guru</a></textPath> </text> </svg> </div></div>
+
+            <link href="https://awards.infcdn.net/2024/circle_v2.css" rel="stylesheet"/><div id="circle-r-ribbon" onclick="if(event.target.nodeName.toLowerCase() != 'a') {window.open(this.querySelector('.r-ribbon_title').href);return 0;}" class=""> <div class="r-ribbon_ahead "> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px" height="160px" viewBox="0 0 160 160"> <defs> <path id="heading-arc" d="M 30 80 a 50 50 0 1 1 100 0"></path> </defs> <text class="r-ribbon_ahead-heading " fill="#000" text-anchor="middle"> <textPath startOffset="50%" xlink:href="#heading-arc">Recommended</textPath> </text> </svg> </div> <p class="r-ribbon_year">2025</p> <a href="https://restaurantguru.com/Spisoh-South-Indian-Takeaway-Stavanger" class="r-ribbon_title f8" target="_blank">Spisoh - South Indian Restaurant</a> <div class="r-ribbon_ahead r-ribbon_ahead-bottom"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120px" height="120px" viewBox="0 0 120 120"> <defs> <path id="subheading-arc" d="M 12 60 a 48 48 0 0 0 96 0"></path> </defs> <text class="r-ribbon_ahead-subh" fill="#000" text-anchor="middle"> <textPath startOffset="50%" xlink:href="#subheading-arc"><a href="https://restaurantguru.com" target="_blank">Restaurant Guru</a></textPath> </text> </svg> </div></div>
+          </div>
+        </section>
+
+        <section>
+          <div class="about-image-cont">
+            <img
+              class="img-group"
+              src="img/team-spisoh-3.avif"
+              alt="Image of team Spisoh"
+              loading="lazy"
+            >
+            <img
+              class="img-group"
+              src="img/team-spisoh-1.avif"
+              alt="Image of owners of Spisoh"
+              loading="lazy"
+            >
+            <img
+              class="img-group"
+              src="img/team-spisoh-2.avif"
+              alt="Image of owners of Spisoh"
+              loading="lazy"
+            >
+            <img
+              class="img-group"
+              src="img/team-spisoh-4.avif"
+              alt="Image of chef"
+              loading="lazy"
+            >
+          </div>
+        </section>
+        <hr style="height:1px; border-width:0; background-color:gray">
+        <!-- Features -->
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <ul class="grid-list">
+              <div class="horizontal-cards">
+                <li class="feature-item feature-1">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./img/feature-food.avif"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      >
+                    </div>
+                    <h3 class="title-2 card-title">Story Behind 'Spisoh'</h3>
+                    <p class="label-1 card-text">
+                      The brand Spis-oh comes from
+                      Spiser (Eating in Norsk) and Khaoh (Eating in Hindi).
+                    </p>
+                  </div>
+                </li>
+                <li class="feature-item feature-2">
+                  <div class="feature-card">
+                    <div class="card-icon">
+                      <img
+                        src="./img/feature-table.avif"
+                        width="100"
+                        height="80"
+                        loading="lazy"
+                        alt="icon"
+                      >
+                    </div>
+                    <h3 class="title-2 card-title">Our Guarantee</h3>
+                    <p class="label-1 card-text">Our chefs use only the freshest ingredients and traditional cooking techniques to create dishes that are sure to tantalize your taste buds. Whether you’re a long-time fan of South Indian cuisine or a first-time visitor, we guarantee that you’ll leave our restaurant feeling satisfied and happy</p>
+                  </div>
+                </li>
+              </div>
+              <li class="feature-item">
+                <div class="feature-card feature-card-chef">
+                  <div class="card-icon">
+                    <img
+                      src="./img/feature-chef.avif"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    >
+                  </div>
+                  <h3 class="title-2 card-title">Skilled Chef</h3>
+                  <p class="label-1 card-text">
+                    Our Chef is an award winning culinary professional with long
+                    experience in global food industry.
+                    <br>
+                    <br>
+                    He specializes
+                    in South Indian, Japanese and Indo European fusion cuisine.
+                    Born and brought up in Chennai, India, he has honed his
+                    culinary skills in five star properties like The Hyatt, The
+                    Oberoi and has been heading an acclaimed Mexican restaurant
+                    chain in Portugal and a fine dining Italian joint in
+                    Oslo.
+                    <br>
+                    <br>
+                    He is here in Stavanger to thrill our taste
+                    buds.
+                  </p>
+                </div>
+              </li>
+              <li class="feature-item last-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./img/feature-star.avif"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    >
+                  </div>
+                  <h3 class="title-2 card-title">Get Your food!</h3>
+                  <p class="label-1 card-text">
+                    Book your table in our centrally located 36 seater newly
+                    build restaurant @Løkkeveien 28, Stavanger
+                    <br>
+                    <br>
+                    You can also order online and pick up from our restaurant -
+                    its simple and easy
+                    <br>
+                    <br>
+                    If you prefer "sofakos" then use our partners app (Wolt and
+                    Foodora) to get our yummy treats delivered at your door
+                    steps
+                    <br>
+                    <br>
+                    Catering orders - drop in a mail with your contact details
+                    to sample@mail.com
+                    <br>
+                    <br>
+                    Stay Safe, relax and order food from Spis-oh
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <hr style="height:1px; border-width:0; background-color:gray">
+        <!-- Footer or Links or Parking -->
+        <div class="footer-cls" id="parking">
+          <div class="footer-card">
+            <div class="section-1">
+              <div class="footer-data-1">
+                <h2 class="gap-h2">Opening Time</h2>
+                <ul class="gap-ul">
+                  <li>
+                    <ion-icon class="foot-inline" name="checkmark-circle-outline"></ion-icon> Monday - Thursday: 16:00 to 21:00* (21:30)
+                  </li>
+                  <li>
+                    <ion-icon class="foot-inline" name="checkmark-circle-outline"></ion-icon> Friday - Saturday: 16:00 to 21:30* (22:00)
+                  </li>
+                  <li>
+                    <ion-icon class="foot-inline" name="checkmark-circle-outline"></ion-icon> Sunday: 15:00 to 20:00* (Buffet)
+                  </li>
+                  <li>
+                     * Kitchen closing time
+                  </li>
+                </ul>
+                <h2 class="gap-h2">Contact</h2>
+                <ul class="gap-ul">
+                  <li>
+                    <a href="https://maps.app.goo.gl/Ci4BENFYW975p64a7" target="_blank">
+                      <ion-icon class="foot-inline" name="location-outline"></ion-icon>
+                      Løkkeveien 28, 4008
+                      Stavanger
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+4700000000">
+                      <ion-icon class="foot-inline" name="call-outline"></ion-icon>
+                      +4700000000
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:sample@mail.com">
+                      <ion-icon class="foot-inline" name="mail-outline"></ion-icon>
+                      sample@mail.com
+                    </a>
+                  </li>
+                </ul>
+                <div class="socials">
+                  <h2 class="gap-h2">Stay Connected</h2>
+                  <div class="socials-flex">
+                    <a href="https://www.instagram.com/spisoh/" target="_blank">
+                      <ion-icon class="social-logo" name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://www.facebook.com/Spisoh.no/">
+                      <ion-icon class="social-logo" name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="mailto:sample@mail.com">
+                      <ion-icon class="social-logo" name="mail-outline"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section-2">
+              <div class="footer-data-2">
+                <h2>Where Are We?</h2>
+                <p>
+                  Heading to Spisoh for dinner? Parking can be tricky downtown,
+                  but fret no more!
+                  <br>
+                  There's a convenient public parking lot just a
+                  <br>
+                  short walk away
+                  on Løkkeveien 28, 4008 Stavanger.
+                </p>
+                <a href="https://maps.app.goo.gl/Ci4BENFYW975p64a7" target="_blank">
+                  <img
+                    class="footer-img"
+                    src="img/parking-data.avif"
+                    loading="lazy"
+                    alt="Google Maps image of parking area available near Spisoh, South Indian Restaurant, Stavanger"
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr style="height:1px; border-width:0; background-color:gray">
+        <div class="copyright-sec">
+          <p>Copyright &copy; Spisoh</p>
+        </div>
+        <!-- Back to Top Button -->
+        <a
+          href="#top"
+          class="back-top-btn active"
+          aria-label="back to top"
+          data-back-top-btn
+        >
+          <ion-icon name="chevron-up"></ion-icon>
+        </a>
+        <!-- JavaScript Link -->
+        <script src="./script.js"></script>
+        <!-- Ionicon Link -->
+        <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
+      </body>
+    </html>
