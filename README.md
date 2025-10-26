@@ -1,5 +1,6 @@
 # Spisoh (Stavanger, Norway) - Restaurant Website
 A static website for Spisoh - a restaurant in Norway. This repository contains the full front-end source for the site: HTML, CSS, JavaScript and image assets. It's a simple, responsive, static site suitable for local preview and hosting via GitHub Pages (or any other static file host)
+- For live demo, visit https://www.spisoh.no/
 
 ## Contents
 Repository root files (high level):
